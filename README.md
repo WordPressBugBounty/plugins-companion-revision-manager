@@ -1,0 +1,1 @@
+# plugins-companion-revision-manager
