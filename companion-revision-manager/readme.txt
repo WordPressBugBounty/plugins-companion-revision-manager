@@ -1,10 +1,10 @@
 === Companion Revision Manager - Revision Control ===
 Contributors: Papin
-Donate link: https://www.paypal.me/dakel/
+Donate link: https://www.paypal.me/wijzijnqreative/
 Tags: revision, manager, control, post, page, companion, disable, enable, restore, version, backup, speed, clean, database
 Requires at least: 3.5.0
-Tested up to: 6.5
-Stable tag: 1.6.2
+Tested up to: 6.8
+Stable tag: 1.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,10 @@ The WordPress revisions system stores a record of each saved draft or published 
 1. Setting page
 
 == Changelog ==
+
+= 1.6.3 =
+* Made sure the database version option does not get autoloaded
+* Changed plugin URLs to working ones
 
 = 1.6.2 (November 8, 2019) =
 * Tweak: crm_database_creation() query is no longer running on every page load, just on activation or updating of the plugin

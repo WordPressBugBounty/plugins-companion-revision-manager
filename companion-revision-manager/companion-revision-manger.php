@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Companion Revision Manager
-Plugin URI:  http://codeermeneer.nl/portfolio/companion-revision-manager/
+Plugin URI:  https://wijzijnqreative.nl/companion-plugins/
 Description: Lightweight plugin that allows full control over post revisions
-Version:     1.6.2
+Version:     1.6.3
 Author:      Papin Schipper
-Author URI:  http://codeermeneer.nl
+Author URI:  https://wijzijnqreative.nl/companion-plugins/
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: companion-revision-manager
@@ -70,7 +70,7 @@ function crm_database_creation() {
 	dbDelta( $sql );
 
 	// Database version
-	add_option( "crm_db_version", "$crm_db_version" );
+	add_option( "crm_db_version", "$crm_db_version", '', false );
 
 	// Insert data
 	crm_install_data();
